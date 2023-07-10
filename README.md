@@ -1,14 +1,18 @@
 # NTU RGBD Tubelet Parser
 Please download the dataset from [https://rose1.ntu.edu.sg/dataset/actionRecognition/](https://rose1.ntu.edu.sg/dataset/actionRecognition/)
 
-**Files or Folder's of the format**
-Please ref to paper "NTU RGB+D 120: A Large-Scale Benchmark for 3D Human Activity Understanding" for more info
-    S<sss>C<ccc>P<ppp>R<rrr>A<aaa>
-    <sss> -> setup number , it has 32 different setups with different camera height and distance.
-    <ccc> -> Camera ID
-    <ppp> -> Performer ID
-    <rrr> -> Replication number
-    <aaa> -> Activity ID
+**Files or Folder's of the format** 
+
+Please ref to paper "NTU RGB+D 120: A Large-Scale Benchmark for 3D Human Activity Understanding" for more info 
+```
+    S<sss>C<ccc>P<ppp>R<rrr>A<aaa> 
+
+    <sss> -> setup number , it has 32 different setups with different camera height and distance  
+    <ccc> -> Camera ID  
+    <ppp> -> Performer ID  
+    <rrr> -> Replication number   
+    <aaa> -> Activity ID  
+```
 
 **Steps to parse the tracklets**
 
